@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background: linear-gradient(95deg, rgb(27, 130, 174), rgb(132, 131, 211), rgb(182, 34, 165));
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    margin-top: 70px;
+}
+
+#screen {
+    width: 16rem;
+    height: 26px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+#screen:hover {
+    border-color: silver;
+    box-shadow: 5px 4px 4px black;
+}
+
+#add {
+    margin-left: -20px;
+    height: 30px;
+    background-color: rgb(174, 45, 174);
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+
+}
+
+#add:hover {
+    background-color: rgb(202, 69, 202);
+    width: 1.9rem;
+    border-color: silver;
+    box-shadow: 5px 4px 4px black;
+    transition: 1 s
+}
+
+.todo {
+    margin-left: 465px;
+    color: white;
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+.Ebtn {
+    background-color: green;
+    outline: none;
+    border: none
+}
+
+.Dbtn {
+    background-color: red;
+    outline: none;
+    border: none;
+
+
+}
